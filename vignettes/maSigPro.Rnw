@@ -30,9 +30,9 @@ $^{3}$ Microbiology and Cell Science Department, Institute for Food and Agricult
 
 {\bf maSigPro} is a R package for the analysis of single and multiseries time course microarray and RNA-Seq experiments.
 \\
-{\bf maSigPro} follows a two steps regression strategy to find genes with significant temporal expression changes and significant differences between experimetal groups.
+{\bf maSigPro} follows a two steps regression strategy to find genes with significant temporal expression changes and significant differences between experimental groups.
 The method firstly defines a general regression model for the data where the experimental groups are identified by dummy variables.
-The procedure adjusts this global model by the least squared technique to identify differentially expressed genes and selects significant genes aplying false discovery rate control procedure.
+The procedure adjusts this global model by the least squared technique to identify differentially expressed genes and selects significant genes applying a false discovery rate control procedure.
 Secondly, stepwise regression is applied as a variable selection strategy to study differences between experimental groups and to find statistically significant different profiles.
 The coefficients obtained in the second regression model will be useful to cluster together significant genes with similar expression patterns and to visualize the results.
 \\
